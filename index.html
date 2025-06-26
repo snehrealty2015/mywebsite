@@ -2,33 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Free Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sneh Realty - Land Trading</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
       background-color: #f4f4f4;
-      padding: 50px;
     }
-    h1 {
-      color: #333;
+    header {
+      background-color: #2a5d34;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-    p {
-      color: #666;
+    nav {
+      background: #3d7746;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') center/cover no-repeat;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .land-card {
+      background: white;
+      margin: 20px auto;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     footer {
-      margin-top: 30px;
-      font-size: 0.9em;
-      color: #999;
+      background-color: #2a5d34;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .btn {
+      background: #2a5d34;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>This is a free website hosted using GitHub Pages and my own domain name.</p>
-  <footer>
-    &copy; 2025 Your Name. All rights reserved.
-  </footer>
+
+<header>
+  <h1>Sneh Realty</h1>
+  <p>Trusted Land Trading Company</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#listings">Land Listings</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Your Trusted Partner in Land Investments</h1>
+  <p>Buy, Sell & Trade Plots Across India</p>
+  <a href="#listings" class="btn">View Listings</a>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We specialize in land deals across Maharashtra and beyond. Transparent, verified plots with clean documentation.</p>
+</section>
+
+<section id="listings">
+  <h2>Available Land Listings</h2>
+
+  <div class="land-card">
+    <h3>Plot in Nashik - 1 Acre</h3>
+    <p>Price: ₹45 Lakhs<br>Location: Trimbakeshwar Road</p>
+    <a href="https://wa.me/919876543210" class="btn">Enquire on WhatsApp</a>
+  </div>
+
+  <div class="land-card">
+    <h3>Plot in Pune - 0.5 Acre</h3>
+    <p>Price: ₹30 Lakhs<br>Location: Hinjewadi Phase 3</p>
+    <a href="https://wa.me/919876543210" class="btn">Enquire on WhatsApp</a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: +91 98765 43210<br>Email: info@snehrealty.in</p>
+  <p><a class="btn" href="mailto:info@snehrealty.in">Email Us</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Sneh Realty. All rights reserved.
+</footer>
+
 </body>
 </html>
